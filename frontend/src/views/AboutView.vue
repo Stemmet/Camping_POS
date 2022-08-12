@@ -173,7 +173,7 @@
 
 </script>
 
-<style>
+<style scoped>
   
 header:after,
 nav:after,
@@ -271,7 +271,7 @@ header p {
 	color: #272727; 
 	font-size: 18px;
 	margin: 0;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 nav { 

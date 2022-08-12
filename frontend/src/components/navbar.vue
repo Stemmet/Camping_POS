@@ -34,6 +34,12 @@
         </span>
         <span class="text">My Cart</span>
         </router-link></li>
+        <li class="list-item" style="--color:#1BC23E"><router-link to="/admin">
+        <span class="icon">
+          <i class="bi bi-archive"></i>
+        </span>
+        <span class="text">Admin</span>
+        </router-link></li>
       <li class="list-item" style="--color:#1BC23E"><router-link to="#">
         <span class="icon">
           <i class="bi bi-door-open"></i>
@@ -58,13 +64,14 @@
           <li><router-link class="menu__item" to="/about">About</router-link></li>
           <li><router-link class="menu__item" to="/contact">Contact</router-link></li>
           <li><router-link class="menu__item" to="/cart">Cart</router-link></li>
+          <li><router-link class="menu__item" to="/admin">Admin</router-link></li>
           <li><router-link class="menu__item" to="#">Log in/ Sign in</router-link></li>
         </ul>
       </div>
     </div>
 </template>
 
-<script>
+<script scoped>
 export default {
   data() {
     return {
@@ -118,6 +125,7 @@ listItems.forEach(item => {
 
 .navigation.open {
   width: 250px;
+  z-index: 100;
 }
 
 .navigation .menu-toggle {

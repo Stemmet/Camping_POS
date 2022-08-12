@@ -1,21 +1,24 @@
 <template>
  <div class="landing">
-  <div class="wrapper">
     <div class="container">
-      <h1>Camping Tech</h1>
+      <main>
+        CAMPING
+      <br>
+        Tech
+      </main>
     </div>
-  </div>
  </div>
 <div>
-  
+
 </div>
-<div id="back">
-  <div class="backLeft"></div>
+<div class="big">
+  <div id="back">
+    <div class="backLeft"></div>
 </div>
 
 <div class="topProducts">
-
-</div>
+  
+  </div>
 <div id="slideBox">
   <div class="topLayer">
     <div class="right">
@@ -42,9 +45,39 @@
     </div>
   </div>
 </div>
+      </div>
 
-<div class="carousel">
-  <carousel></carousel>
+<div class="big">
+  <div class="two">
+    <div id="back">
+      
+      <div class="topProducts">
+        
+        </div>
+  <div id="slideBox">
+    <div class="topLayer">
+      <div class="right">
+        <div class="content">
+          <h2>Come find us...</h2>
+            <div class="container">
+              
+          </div>
+          <div>
+            <router-link to="/products"><button id="login" type="submit">Shop Now</button></router-link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+  <div class="carousel">
+    <carousel></carousel>
+  </div>
+
+<div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.29342152615!2d18.490473615169563!3d-33.98499628062438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bfcf832a1%3A0x3b4439b8cc517802!2s314%20Imam%20Haron%20Rd%2C%20Lansdowne%2C%20Cape%20Town%2C%207780!5e0!3m2!1sen!2sza!4v1660224447011!5m2!1sen!2sza" width="760" height="410" style="border:0; margin-bottom: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 </template>
 
@@ -59,83 +92,25 @@ import carousel from '../components/carousel.vue'
   }
 </script>
 
-<style>
+<style scoped>
+
 .landing {
   background-image: url(https://cdn.wallpapersafari.com/91/55/wVnSEW.jpg);
   background-size: cover ;
-  background-position:top;
+  background-position:center;
   background-repeat: no-repeat;
   width: 177vh;
   height: 95vh; 
   margin-bottom: 10px;
+  /* justify-content: center; */
   /* filter: grayscale(); */
 }
 
-:root {
-  --color-1: #FFF;
-  --color-2: #FFF;
-  --color-3: #FFF;
-  --color-4: #FFF;
-  --color-5: #FFF;
-}
-
-
-.wrapper {
-  line-height: 1;
-  min-height: 100%;
-  display: grid;
-  place-items: center;
-  /* min-height: calc(100vh - 16px); */
-}
-
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 15vw;
-  font-weight: 800;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-  margin: auto;
-  text-transform: uppercase;
-  background: linear-gradient(219deg, 
-    var(--color-1) 19%, 
-    transparent 19%,transparent 20%, 
-    var(--color-2) 20%, var(--color-2)  39%,
-    transparent 39%,transparent 40%, 
-    var(--color-3) 40%,var(--color-3) 59% ,
-    transparent 59%,transparent 60%, 
-    var(--color-4) 60%, var(--color-4) 79%,
-    transparent 79%, transparent 80%, 
-    var(--color-5) 80%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.container {
-  /* padding: 1.5rem;    */
-  text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-  h1 {
-    font-size: 6.5rem;
-  }
-}
-
-body {
-  height: 100%;
-  overflow-x: hidden;
-  width: 100% !important;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-    /* background: #f2eee3; */
-}
 .backLeft {
   position: absolute;
   left: 0;
   width: 50%;
-  height: 100%;
+  height: 81vh;
   background: #e74c3c url(https://images5.alphacoders.com/555/thumb-1920-555700.jpg);
   background-size: cover;
   background-position: 50% 50%;
@@ -148,21 +123,23 @@ body {
   position: absolute;
   z-index: -999;
   overflow-x: hidden;
+  margin-bottom: 10px;
 }
 
 #slideBox {
   width: 76.2vh;
-  max-height: 100%;
-  height: 100%;
+  height: 81vh;
+  /* height: 100%; */
   overflow: hidden;
   margin-left: 50%;
   position: absolute;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
+
 }
 .topLayer {
   width: 200%;
   height: 100%;
-  position: relative;
+  position: absolute;
   left: 0;
   left: -100%;
 }
@@ -198,7 +175,7 @@ button {
   line-height: 16px;
   letter-spacing: 0.5px;
   border-radius: 2px;
-  
+  font-family: "Poppins", sans-serif;
   border: 0;
   outline: 0;
   margin: 15px 15px 15px 0;
@@ -206,10 +183,6 @@ button {
   justify-items: center;
 }
 
-/* button:hover {
-  background: #0E9E2C;
-  box-shadow: 0 4px 7px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
-} */
 .off {
   background: none;
   color: #1BC23E;
@@ -258,17 +231,65 @@ input {
 .title{
   color: white;
   font-weight: 400;
+  font-family: "Poppins", sans-serif;
   position: absolute;
   font-size: 36px;
   left: 20%;
   top: 30%;
 }
+  .two{
+    margin-top: 83.6vh;
+  }
 
-.carousel{
-  margin-top: 102.6vh;
+.carousel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 200px 200px;
 }
-/* .topProducts{
-  margin-bottom: 10px;
-  position: fixed;
-} */
+
+.carouInfo{
+  background-color: #FFF;
+  width: 75vh;
+  height: 60vh;
+  position: relative;
+  bottom: 61.3vh;
+  /* left: 101vh; */
+}
+
+main {
+  transition: all 0.5s;
+  -webkit-text-stroke: 4px #23ff00;
+  font-variation-settings: "wght" 900, "ital" 1;
+  font-size: 13rem;
+  text-align: center;
+  color: transparent;
+  font-family: "poppins", sans-serif;
+  text-shadow: 10px 10px 0px #23ff00,
+    15px 15px 0px #1BC23E,
+    20px 20px 0px #0E9E2C,
+    25px 25px 0px #0d7909,
+    45px 45px 10px #014c03;
+  cursor: pointer;
+
+}
+
+main:hover {
+  font-variation-settings: "wght" 100, "ital" 0;
+  text-shadow: none;
+}
+
+@media only screen and (max-width: 590px){
+
+  .landing{
+    width: 42vh;
+    height: 20vh; 
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .big{
+    display: none;
+  }
+}
+  
 </style>

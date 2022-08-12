@@ -7,25 +7,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://picsum.photos/200/300" class="d-block " alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
+      <img src="https://www.georgefisher.co.uk/templates/georgefisher.co.uk/_images/home/camping-home-tents.jpg" class="d-block " alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://picsum.photos/200/300" class="d-block " alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
+      <img src="https://images.unsplash.com/photo-1596055746427-d5f61aa5df99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FtcGluZyUyMGVxdWlwbWVudHxlbnwwfHwwfHw%3D&w=1000&q=80" class="d-block " alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://picsum.photos/200/300" class="d-block " alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
+      <img src="https://www.tripsavvy.com/thmb/CZWq4RpmgQNtzdzB6tQpSFMAAVA=/1106x1106/smart/filters:no_upscale()/golden-sunrise-illuminating-tent-camping-dramatic-mountain-landscape-panorama-scotland-526564828-123a70a538f84495addd791f14fd7385.jpg" class="d-block " alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -49,13 +37,17 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #carouselExampleCaptions{
-    width: 177vh;
+    width: 100.8vh;
+    margin-bottom: 10px;
+    z-index: 0;
 }
 img {
     height: 60vh;
-    width: 177vh;
+    width: 100.8vh;
+    object-fit: cover;
+    object-position: 50%;
 }
 
 </style>
