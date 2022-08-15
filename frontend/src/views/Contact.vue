@@ -79,6 +79,14 @@
 
 <style scoped>
 
+h1{
+  font-size: 11rem;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+
+
 #contact {
   width: 100%;
   height: 100%;

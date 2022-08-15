@@ -4,8 +4,8 @@
 				<div class="row justify-content-center text-center">
 						<div class="col-md-8 col-lg-6">
 								<div class="header">
-										<h3>Featured Product</h3>
-										<h2>Popular Products</h2>
+										<!-- <h3>Featured Product</h3> -->
+										<h1>Products</h1>
 								</div>
 						</div>
 				</div>
@@ -37,6 +37,13 @@ export default {
 </script>
 
 <style scoped>
+h1{
+  font-size: 11rem;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+
 .section-products .header {
     margin-bottom: 50px;
 }

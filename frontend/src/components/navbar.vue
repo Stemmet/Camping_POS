@@ -28,19 +28,19 @@
       </span>
       <span class="text">Contact</span>
       </router-link></li>
-      <li class="list-item" style="--color:#1BC23E"><router-link to="/cart">
+      <!-- <li class="list-item" style="--color:#1BC23E"><router-link to="/cart">
         <span class="icon">
           <i class="bi bi-bag-heart"></i>
         </span>
         <span class="text">My Cart</span>
-        </router-link></li>
+        </router-link></li> -->
         <li class="list-item" style="--color:#1BC23E"><router-link to="/admin">
         <span class="icon">
           <i class="bi bi-archive"></i>
         </span>
         <span class="text">Admin</span>
         </router-link></li>
-      <li class="list-item" style="--color:#1BC23E"><router-link to="#">
+      <li class="list-item" style="--color:#1BC23E"><router-link to="/login">
         <span class="icon">
           <i class="bi bi-door-open"></i>
         </span>
@@ -63,12 +63,14 @@
           <li><router-link class="menu__item" to="/products">Products</router-link></li>
           <li><router-link class="menu__item" to="/about">About</router-link></li>
           <li><router-link class="menu__item" to="/contact">Contact</router-link></li>
-          <li><router-link class="menu__item" to="/cart">Cart</router-link></li>
+          <!-- <li><router-link class="menu__item" to="/cart">Cart</router-link></li> -->
           <li><router-link class="menu__item" to="/admin">Admin</router-link></li>
-          <li><router-link class="menu__item" to="#">Log in/ Sign in</router-link></li>
+          <li><router-link class="menu__item" to="/login">Log in/ Sign in</router-link></li>
         </ul>
       </div>
     </div>
+
+    
 </template>
 
 <script scoped>

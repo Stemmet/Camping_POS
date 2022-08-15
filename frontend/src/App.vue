@@ -1,20 +1,21 @@
 <template>
    <navbar></navbar>
+   <CartIcon></CartIcon>
   <router-view/>
   <FooterCom></FooterCom>
 </template>
 
 <script>
  import navbar from './components/navbar.vue'
- import footerCom from './components/footerCom.vue'
 import FooterCom from './components/footerCom.vue'
+import CartIcon from './components/cartIcon.vue'
 
   export default{
     name: 'App',
     components:{
     navbar,
-    footerCom,
-    FooterCom
+    FooterCom,
+    CartIcon
 }
   }
 </script>
@@ -22,7 +23,7 @@ import FooterCom from './components/footerCom.vue'
 <style>
 body{
   background-color: #1BC23E;
-  padding: 20px 120px;
+  padding: 4px 120px;
   overflow-x: hidden;
 }
 

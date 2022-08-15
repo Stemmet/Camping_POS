@@ -39,16 +39,6 @@
                             <div class="footer-logo">
                                 <a href="index.html"><img src="https://i.postimg.cc/SsfQ1m5Q/Green-Creative-Growing-Seed-For-Agriculture-Farming-Gardening-Logo.png" class="img-fluid" alt="logo"></a>
                             </div>
-                            <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="footer-social-icon">
-                                <span>Follow us</span>
-                                <a href="#"><i class="bi bi-facebook facebook-bg"></i></a>
-                                <a href="#"><i class="bi bi-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="bi bi-google google-bg"></i></a>
-                            </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
@@ -158,25 +148,15 @@ ul {
 }
 .footer-pattern img {
   position: absolute;
-  top: 0;
-  left: 0;
   height: 330px;
   background-size: cover;
   background-position: 100% 100%;
 }
 .footer-logo {
   display: grid;
-  margin-bottom: 30px;
 }
 .footer-logo img {
     max-width: 300px;
-    /* float: right; */
-}
-.footer-text p {
-  margin-bottom: 14px;
-  font-size: 14px;
-      color: #7e7e7e;
-  line-height: 28px;
 }
 .footer-social-icon span {
   color: #000000;
@@ -197,15 +177,6 @@ ul {
   text-align: center;
   line-height: 38px;
   border-radius: 50%;
-}
-.facebook-bg{
-  background: #3B5998;
-}
-.twitter-bg{
-  background: #55ACEE;
-}
-.google-bg{
-  background: #DD4B39;
 }
 .footer-widget-heading h3 {
   color: #fff;

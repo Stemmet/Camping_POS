@@ -44,10 +44,10 @@ export default {
     z-index: 0;
 }
 img {
-    height: 60vh;
+    height: 30vh;
     width: 100.8vh;
     object-fit: cover;
-    object-position: 50%;
+    /* object-position: 70%; */
 }
 
 </style>

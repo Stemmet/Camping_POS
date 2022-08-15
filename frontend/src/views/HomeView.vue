@@ -1,17 +1,11 @@
 <template>
- <div class="landing">
-    <div class="container">
-      <main>
-        CAMPING
-      <br>
-        Tech
-      </main>
-    </div>
+  <div class="landing">
+    <h1>CAMPING TECH</h1>
  </div>
 <div>
-
-</div>
-<div class="big">
+  
+  </div>
+  <div class="big">
   <div id="back">
     <div class="backLeft"></div>
 </div>
@@ -25,8 +19,8 @@
       <div class="content">
         <h2>Best Sellers</h2>
           <div class="container">
-    <div class="card">
-      <h3 class="title">Card 1</h3>
+            <div class="card">
+              <h3 class="title">Card 1</h3>
     </div>
     <div class="card">
       <h3 class="title">Card 2</h3>
@@ -61,24 +55,27 @@
           <h2>Come find us...</h2>
             <div class="container">
               
-          </div>
+              </div>
           <div>
-            <router-link to="/products"><button id="login" type="submit">Shop Now</button></router-link>
+            <router-link to="/products"><button id="login" type="submit">About us</button></router-link>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-</div>
     </div>
   <div class="carousel">
     <carousel></carousel>
   </div>
 
-<div>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.29342152615!2d18.490473615169563!3d-33.98499628062438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bfcf832a1%3A0x3b4439b8cc517802!2s314%20Imam%20Haron%20Rd%2C%20Lansdowne%2C%20Cape%20Town%2C%207780!5e0!3m2!1sen!2sza!4v1660224447011!5m2!1sen!2sza" width="760" height="410" style="border:0; margin-bottom: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+<div class="small">
+
 </div>
+
 </template>
 
 <script>
@@ -100,10 +97,16 @@ import carousel from '../components/carousel.vue'
   background-position:center;
   background-repeat: no-repeat;
   width: 177vh;
-  height: 95vh; 
+  height: 50vh; 
   margin-bottom: 10px;
-  /* justify-content: center; */
-  /* filter: grayscale(); */
+  justify-content: center;
+}
+
+.landing h1{
+  font-size: 11rem;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
 }
 
 .backLeft {
@@ -256,29 +259,12 @@ input {
   /* left: 101vh; */
 }
 
-main {
-  transition: all 0.5s;
-  -webkit-text-stroke: 4px #23ff00;
-  font-variation-settings: "wght" 900, "ital" 1;
-  font-size: 13rem;
-  text-align: center;
-  color: transparent;
-  font-family: "poppins", sans-serif;
-  text-shadow: 10px 10px 0px #23ff00,
-    15px 15px 0px #1BC23E,
-    20px 20px 0px #0E9E2C,
-    25px 25px 0px #0d7909,
-    45px 45px 10px #014c03;
-  cursor: pointer;
 
-}
-
-main:hover {
-  font-variation-settings: "wght" 100, "ital" 0;
-  text-shadow: none;
-}
 
 @media only screen and (max-width: 590px){
+  .big{
+      display: none;
+  }
 
   .landing{
     width: 42vh;
@@ -287,9 +273,7 @@ main:hover {
     color: #fff;
   }
 
-  .big{
-    display: none;
-  }
+
 }
   
 </style>
