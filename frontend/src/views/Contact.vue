@@ -1,7 +1,7 @@
 <template>
   <section id="contact">
   
-  <h1 class="section-header">Contact</h1>
+  <h1>Contact</h1>
   
   <div class="contact-wrapper">
   
@@ -37,27 +37,27 @@
       <div class="direct-contact-container">
 
         <ul class="contact-list">
-          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+          <li class="list-item"><i class="bi bi-geo-alt fa-2x"><span class="contact-text place">City, State</span></i></li>
           
-          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+          <li class="list-item"><i class="bi bi-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
           
-          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+          <li class="list-item"><i class="bi bi-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
           
         </ul>
 
         <hr>
         <ul class="social-media-list">
           <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-github" aria-hidden="true"></i></a>
+            <i class="bi bi-github" aria-hidden="true"></i></a>
           </li>
           <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-codepen" aria-hidden="true"></i></a>
+            <i class="bi bi-facebook" aria-hidden="true"></i></a>
           </li>
           <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <i class="bi bi-twitter" aria-hidden="true"></i></a>
           </li>
           <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <i class="bi bi-instagram" aria-hidden="true"></i></a>
           </li>       
         </ul>
         <hr>
@@ -134,12 +134,14 @@ textarea {
   width: 400px;
   overflow: hidden;
   transition: all .2s ease-in-out;
+  background-color: green;
 }
 
 .alt-send-button {
   width: 400px;
   height: 34px;
   transition: all .2s ease-in-out;
+  background-color: green;
 }
 
 .send-text {
@@ -167,13 +169,13 @@ textarea {
 
 .list-item {
   line-height: 4;
-  color: #aaa;
+  color: #fff;
 }
 
 .contact-text {
   font: 300 18px 'Poppins', sans-serif;
   letter-spacing: 1.9px;
-  color: #bbb;
+  color: #fff;
 }
 
 .place {
@@ -189,13 +191,13 @@ textarea {
 }
 
 .contact-text a {
-  color: #bbb;
+  color: #fff;
   text-decoration: none;
   transition-duration: 0.2s;
 }
 
 .contact-text a:hover {
-  color: #fff;
+  color: #555;
   text-decoration: none;
 }
 
@@ -223,7 +225,7 @@ textarea {
   line-height: 60px;
   border-radius: 50%;
   color: #fff;
-  background-color: rgb(27,27,27);
+  background-color: #1BC23E;
   cursor: pointer; 
   transition: all .2s ease-in-out;
 }
@@ -258,7 +260,7 @@ textarea {
 
 .copyright {
   font: 200 14px 'Poppins', sans-serif;
-  color: #555;
+  color: #fff;
   letter-spacing: 1px;
   text-align: center;
 }

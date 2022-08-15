@@ -31,20 +31,20 @@
 		   
 			<section id="block2" class="module-block">
 
-				<h2>2nd Level Heading</h2>
+				<h2>Relevant Camping Articles</h2>
 				
 			   	<article class="post">
 					
 					<h3>
 						<a href="#">
-							Article Title
-							<img src="https://images.unsplash.com/photo-1532339142463-fd0a8979791a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FtcGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="" />
+							Camping Essay: Advantages and Disadvantages
+							<img src="https://media.cntraveler.com/photos/607313c3d1058698d13c31b5/3:2/w_2454,h_1636,c_limit/FamilyCamping-2021-GettyImages-948512452-2.jpg" alt="" />
 						</a>
 					</h3>
 					
-					<strong class="date">1.01.2012</strong>
+					<strong class="date">Jun 19th, 2022</strong>
 					
-					<p>Cupcake ipsum dolor. Sit amet sweet roll icing cupcake ice cream sugar plum. Danish I love biscuit carrot cake tart jelly beans candy. Chupa chups chocolate bar I love pie ice cream brownie gummi bears. Soufflé cookie I love gummi bears faworki sweet sweet tart croissant. Muffin bonbon danish wafer candy macaroon I love dessert. Muffin pudding danish chupa chups. Halvah lollipop applicake icing. Brownie I love cupcake. I love gingerbread cheesecake gummi bears powder candy toffee icing. Pastry jelly beans candy canes dragée croissant I love halvah jujubes. Cotton candy icing wafer caramels applicake. <a href="#">Read full article &rarr;</a></p>
+					<p>Camping is an outdoor activity that involves spending time in nature, exploring its different aspects, and doing a wide variety of activities. Individuals spend time in various natural settings and enjoy themselves by taking part in physical activities. The history of camping can be traced back to the early years of the 20th century (Daniel, 2015). It began with travelers and explorers. Camping has numerous variations that include adventure camping, backpacking, canoe camping, work camping, social camping, bicycle camping, survivalist camping, and dry camping (Daniel, 2015). These variations are distinguished by the type of activities involved. The activities are designed to suit the theme or purpose of camping. On the other hand... <a href="https://ivypanda.com/essays/camping-its-advantages-and-disadvantages/">Read full article &rarr;</a></p>
 				
 				</article>
 
@@ -52,14 +52,14 @@
 					
 					<h3>
 						<a href="#">
-							Article Title 
-							<img src="http://placehold.it/200" alt="" />
+							The Ultimate Festival Checklist: Everything You Need To Pack 
+							<img src="https://oneedm.com/wp-content/uploads/2020/07/Festival-Camping-Essentials.jpg" alt="" />
 						</a>
 					</h3>
 					
-					<strong class="date">01.01.2012</strong>
+					<strong class="date">Nov 18th, 2022</strong>
 					
-					<p>Cupcake ipsum dolor. Sit amet sweet roll icing cupcake ice cream sugar plum. Danish I love biscuit carrot cake tart jelly beans candy. Chupa chups chocolate bar I love pie ice cream brownie gummi bears. Soufflé cookie I love gummi bears faworki sweet sweet tart croissant. Muffin bonbon danish wafer candy macaroon I love dessert. Muffin pudding danish chupa chups. Halvah lollipop applicake icing. Brownie I love cupcake. I love gingerbread cheesecake gummi bears powder candy toffee icing. Pastry jelly beans candy canes dragée croissant I love halvah jujubes. Cotton candy icing wafer caramels applicake.. <a href="#">Read full article &rarr;</a></p>
+					<p>We’re dancing our way into prime festival season! Even experienced stompers sometimes need a hand prepping for weekends away, which is why we’ve put together a checklist for the ultimate festival getaway... <a href="#">Read full article &rarr;</a></p>
 				
 				</article>
 			
