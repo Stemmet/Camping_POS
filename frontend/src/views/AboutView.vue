@@ -9,15 +9,19 @@
             </div>
           </div>
 				</div>
-			
 	  
 			<article id="block1" class="module-block">
 			
-				<h2>2nd Level Heading</h2>
+				<h2>Who are we?</h2>
 				
 				<img class="right1" src="https://images.unsplash.com/photo-1532339142463-fd0a8979791a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FtcGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="" />
 
-				<p> Cupcake ipsum dolor. Sit amet sweet roll icing cupcake ice cream sugar plum. Danish I love biscuit carrot cake tart jelly beans candy. Chupa chups chocolate bar I love pie ice cream brownie gummi bears. Soufflé cookie I love gummi bears faworki sweet sweet tart croissant. Muffin bonbon danish wafer candy macaroon I love dessert. Muffin pudding danish chupa chups. Halvah lollipop applicake icing. Brownie I love cupcake. I love gingerbread cheesecake gummi bears powder candy toffee icing. Pastry jelly beans candy canes dragée croissant I love halvah jujubes. Cotton candy icing wafer caramels applicake.</p>
+				<p> Summer and camping seem to go hand in hand. The warm weather and sunny days are perfect for outdoor activities such as fishing, hiking and scavenger hunts, especially in places where the climate is not too hot. When it 's time to head for the woods nothing is worse than pulling out you stored camping supplies and finding that rodents have been nesting, feeding or defecating in your things.
+					<br>
+					<br>
+				This is why our philosophy is to provide the best equipment ant the best rates, because who are we to deny you the life changing experience that is camping. We were created in 2022 and are currently the largest music festival camping equipment provider with no sign of slowing down. So come on down to Camping Tech and get yourself not only gear...but a chance at adventure and long lasting great memories.
+				
+				</p>
 
 				<ul class="social">
 					<li><a href="#">Link 1</a></li>					
@@ -74,12 +78,12 @@
 
 					<li>
 						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
+							<img alt="" src="https://c4.wallpaperflare.com/wallpaper/193/487/615/tent-camping-milky-way-reflection-wallpaper-preview.jpg"/>
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
+							<img alt="" src="https://wallpaperaccess.com/full/3051347.jpg"/>
 						</a>
 					</li>
 
@@ -370,6 +374,8 @@ img.right1 {
 
     	Gallery
 -------------------------------------------*/
+
+
 
 .gallery li {
 	float: left;

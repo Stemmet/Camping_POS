@@ -62,8 +62,11 @@ export default {
 computed: {
     products(){
         return this.$store.state.products
+    },
+    mounted() {
+        this.$store.dispatch('getProducts');
     }
-}
+ }
 }
 </script>
 
