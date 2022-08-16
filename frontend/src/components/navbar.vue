@@ -16,7 +16,7 @@
         </span>
         <span class="text">Products</span>
         </router-link></li>
-    <li class="list-item" style="--color:#1BC23E"><router-link to="/about">
+    <li class="list-item" style="--color:#1BC23E"><router-link to="/About">
       <span class="icon">
         <i class="bi bi-info-circle"></i>
       </span>
@@ -64,7 +64,7 @@
           <li><router-link class="menu__item" to="/about">About</router-link></li>
           <li><router-link class="menu__item" to="/contact">Contact</router-link></li>
           <!-- <li><router-link class="menu__item" to="/cart">Cart</router-link></li> -->
-          <li><router-link class="menu__item" to="/admin">Admin</router-link></li>
+          <li><router-link class="menu__item" to="/Admin">Admin</router-link></li>
           <li><router-link class="menu__item" to="/login">Log in/ Sign in</router-link></li>
         </ul>
       </div>

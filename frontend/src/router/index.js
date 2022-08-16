@@ -35,7 +35,22 @@ const routes = [
   {
     path: '/login',
     name: 'login',
-    component: () => import('../views/logSignin.vue')
+    component: () => import('../views/login.vue')
+  },
+  {
+    path: '/404',
+    name: '404',
+    component: () => import('../views/error404.vue')
+  },
+  {
+    path: '/single',
+    name: 'single',
+    component: () => import('../views/singleProduct.vue')
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: () => import('../views/register.vue')
   }
 ]
 

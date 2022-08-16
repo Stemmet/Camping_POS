@@ -39,25 +39,25 @@
         <ul class="contact-list">
           <li class="list-item"><i class="bi bi-geo-alt fa-2x"><span class="contact-text place">City, State</span></i></li>
           
-          <li class="list-item"><i class="bi bi-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+          <li class="list-item"><i class="bi bi-phone fa-2x"><span class="contact-text phone"><router-link to="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</router-link></span></i></li>
           
-          <li class="list-item"><i class="bi bi-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+          <li class="list-item"><i class="bi bi-envelope fa-2x"><span class="contact-text gmail"><router-link to="mailto:#" title="Send me an email">hitmeup@gmail.com</router-link></span></i></li>
           
         </ul>
 
         <hr>
         <ul class="social-media-list">
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="bi bi-github" aria-hidden="true"></i></a>
+          <li><router-link to="#" target="_blank" class="contact-icon">
+            <i class="bi bi-github" aria-hidden="true"></i></router-link>
           </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="bi bi-facebook" aria-hidden="true"></i></a>
+          <li><router-link to="#" target="_blank" class="contact-icon">
+            <i class="bi bi-facebook" aria-hidden="true"></i></router-link>
           </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="bi bi-twitter" aria-hidden="true"></i></a>
+          <li><router-link to="#" target="_blank" class="contact-icon">
+            <i class="bi bi-twitter" aria-hidden="true"></i></router-link>
           </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="bi bi-instagram" aria-hidden="true"></i></a>
+          <li><router-link to="#" target="_blank" class="contact-icon">
+            <i class="bi bi-instagram" aria-hidden="true"></i></router-link>
           </li>       
         </ul>
         <hr>

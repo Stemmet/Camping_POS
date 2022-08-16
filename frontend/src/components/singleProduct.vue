@@ -1,70 +1,17 @@
 <template>
-<div class="col-md-6 col-lg-4 col-xl-3">
-    <div id="product-1" class="single-product" v-for="product in products">
-        <div class="part-1">
-            <ul>
-                <li><a href="#"><i class="bi bi-cart"></i></a></li>
-                <li><a href="#"><i class="bi bi-heart"></i></a></li>
-                <li><a href="#"><i class="bi bi-plus"></i></a></li>
-                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-arrows-angle-expand"></i></a></li>
-            </ul>
-        </div>
-        <div class="part-2">
-            <h3 class="product-title">{{product.name}}</h3>
-            <!-- <h4 class="product-old-price">$79.99</h4> -->
-            <h4 class="product-price">${{product.price}}</h4>
-        </div>
-    </div>
-</div>
 
-<div class="modal fade text-start" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Article 1</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <img class="img-fluid" src="https://i.ibb.co/L8Nrb7p/1.jpg" />
-                            </div>
-                            <div class="col-md-6">
-                                <h4>Article 1</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Eveniet facere officiis, impedit esse fugit reprehenderit
-                                    sit, nostrum possimus veritatis quisquam harum quas quo
-                                    rerum beatae obcaecati qui, ex ipsam doloribus asperiores
-                                    nemo dolorem. Sunt labore repudiandae praesentium eveniet
-                                    adipisci corporis ipsa. Iure natus molestias laudantium
-                                    optio recusandae, similique facere omnis!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
 </template>
 
 <script>
 export default {
 computed: {
     products(){
-        return this.$store.state.products
+        return this.$store.state.product
     },
     mounted() {
-        this.$store.dispatch('getProducts');
+        this.$store.dispatch('getProduct');
     }
  }
 }

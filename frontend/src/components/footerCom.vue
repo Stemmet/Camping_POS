@@ -37,7 +37,7 @@
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="https://i.postimg.cc/SsfQ1m5Q/Green-Creative-Growing-Seed-For-Agriculture-Farming-Gardening-Logo.png" class="img-fluid" alt="logo"></a>
+                                <router-link to="index.html"><img src="https://i.postimg.cc/SsfQ1m5Q/Green-Creative-Growing-Seed-For-Agriculture-Farming-Gardening-Logo.png" class="img-fluid" alt="logo"></router-link>
                             </div>
                         </div>
                     </div>
@@ -47,16 +47,14 @@
                                 <h3>Useful Links</h3>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">portfolio</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Expert Team</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Latest News</a></li>
+                                <li><router-link to="/">Home</router-link></li>
+                                <li><router-link to="/about">About us</router-link></li>
+                                <li><router-link to="/contact">Contact us</router-link></li>
+                                <li><router-link to="/404">services</router-link></li>
+                                <li><router-link to="#">portfolio</router-link></li>
+                                <li><router-link to="#">Our Services</router-link></li>
+                                <li><router-link to="#">Expert Team</router-link></li>
+                                <li><router-link to="#">Latest News</router-link></li>
                             </ul>
                         </div>
                     </div>
@@ -84,17 +82,17 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2022, All Right Reserved <a href="https://codepen.io/anupkumar92/"></a></p>
+                            <p>Copyright &copy; 2022, All Right Reserved <router-link to="https://codepen.io/router-linknupkumar92/"></router-link></p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Terms</a></li>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Policy</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><router-link to="#">Home</router-link></li>
+                                <li><router-link to="#">Terms</router-link></li>
+                                <li><router-link to="#">Privacy</router-link></li>
+                                <li><router-link to="#">Policy</router-link></li>
+                                <li><router-link to="#">Contact</router-link></li>
                             </ul>
                         </div>
                     </div>

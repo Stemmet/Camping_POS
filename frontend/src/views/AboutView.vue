@@ -24,9 +24,9 @@
 				</p>
 
 				<ul class="social">
-					<li><a href="#">Link 1</a></li>					
-					<li><a href="#">Link 2</a></li>					
-					<li><a href="#">Link 3</a></li>				
+					<li><router-link to="#">Link 1</router-link></li>					
+					<li><router-link to="#">Link 2</router-link></li>					
+					<li><router-link to="#">Link 3</router-link></li>				
 				</ul>
 	
 			</article>
@@ -37,35 +37,35 @@
 
 				<h2>Relevant Camping Articles</h2>
 				
-			   	<article class="post">
+			   	<router-linkrticle class="post">
 					
 					<h3>
-						<a href="#">
+						<router-link to="#">
 							Camping Essay: Advantages and Disadvantages
 							<img src="https://media.cntraveler.com/photos/607313c3d1058698d13c31b5/3:2/w_2454,h_1636,c_limit/FamilyCamping-2021-GettyImages-948512452-2.jpg" alt="" />
-						</a>
+						</router-link>
 					</h3>
 					
 					<strong class="date">Jun 19th, 2022</strong>
 					
-					<p>Camping is an outdoor activity that involves spending time in nature, exploring its different aspects, and doing a wide variety of activities. Individuals spend time in various natural settings and enjoy themselves by taking part in physical activities. The history of camping can be traced back to the early years of the 20th century (Daniel, 2015). It began with travelers and explorers. Camping has numerous variations that include adventure camping, backpacking, canoe camping, work camping, social camping, bicycle camping, survivalist camping, and dry camping (Daniel, 2015). These variations are distinguished by the type of activities involved. The activities are designed to suit the theme or purpose of camping. On the other hand... <a href="https://ivypanda.com/essays/camping-its-advantages-and-disadvantages/">Read full article &rarr;</a></p>
+					<p>Camping is an outdoor activity that involves spending time in nature, exploring its different aspects, and doing a wide variety of activities. Individuals spend time in various natural settings and enjoy themselves by taking part in physical activities. The history of camping can be traced back to the early years of the 20th century (Daniel, 2015). It began with travelers and explorers. Camping has numerous variations that include adventure camping, backpacking, canoe camping, work camping, social camping, bicycle camping, survivalist camping, and dry camping (Daniel, 2015). These variations are distinguished by the type of activities involved. The activities are designed to suit the theme or purpose of camping. On the other hand... <router-link to="https://ivypanda.com/essays/camping-its-advantages-and-disadvantages/">Read full article &rarr;</router-link></p>
 				
-				</article>
+				</router-linkrticle>
 
-				<article class="post">						
+				<router-linkrticle class="post">						
 					
 					<h3>
-						<a href="#">
+						<router-link to="#">
 							The Ultimate Festival Checklist: Everything You Need To Pack 
 							<img src="https://oneedm.com/wp-content/uploads/2020/07/Festival-Camping-Essentials.jpg" alt="" />
-						</a>
+						</router-link>
 					</h3>
 					
 					<strong class="date">Nov 18th, 2022</strong>
 					
-					<p>We’re dancing our way into prime festival season! Even experienced stompers sometimes need a hand prepping for weekends away, which is why we’ve put together a checklist for the ultimate festival getaway... <a href="#">Read full article &rarr;</a></p>
+					<p>We’re dancing our way into prime festival season! Even experienced stompers sometimes need a hand prepping for weekends away, which is why we’ve put together a checklist for the ultimate festival getaway... <router-link to="#">Read full article &rarr;</router-link></p>
 				
-				</article>
+				</router-linkrticle>
 			
 			</section>
 
@@ -77,96 +77,95 @@
 				<ul class="gallery">
 
 					<li>
-						<a href="#">
+						<router-link to="#">
 							<img alt="" src="https://c4.wallpaperflare.com/wallpaper/193/487/615/tent-camping-milky-way-reflection-wallpaper-preview.jpg"/>
-						</a>
+						</router-link>
 					</li>
 					<li>
-						<a href="#">
+						<router-link to="#">
 							<img alt="" src="https://wallpaperaccess.com/full/3051347.jpg"/>
-						</a>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://lovelytab.com/wp-content/uploads/2019/05/1-16.jpg"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://images.hdqwalls.com/wallpapers/long-night-drive-camping-van-4k-9x.jpg"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGlraW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://c4.wallpaperflare.com/wallpaper/193/487/615/tent-camping-milky-way-reflection-wallpaper-preview.jpg"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://images.wallpaperscraft.com/image/single/girl_travel_camping_166108_1350x2400.jpg"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://media.cntraveler.com/photos/595e64a1adb18c52fbb13a98/16:9/w_2560%2Cc_limit/GettyImages-106583184.jpg"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://images.hdqwalls.com/download/hiking-to-the-snowy-mountains-5k-jw-1920x1080.jpg"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://img.wallpapersafari.com/desktop/1440/900/79/61/NKAm4V.jpg"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://cdn.trendhunterstatic.com/phpthumbnails/476/476500/476500_2_600.jpeg?auto=webp"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://3.bp.blogspot.com/-3QIrbMff14M/XTFp8x6Rt_I/AAAAAAAAIkw/SQuz8qk0L4EUZZQB6hM1gg8hZGmzrsyGACKgBGAs/w919/hiking-nature-minimalist-digital-art-sunset-landscape-uhdpaper.com-4K-18-wp.thumbnail.jpg"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://i0.wp.com/www.hikingupwiththepup.com/wp-content/uploads/2018/06/IMG951362.jpg?fit=1232%2C924&ssl=1"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://images.hdqwalls.com/wallpapers/nissan-gtr-camping-4k-8a.jpg"/>
+						</router-link>
 					</li>
 
 					<li>
-						<a href="#">
-							<img alt="" src="http://placehold.it/200"/>
-						</a>
+						<router-link to="#">
+							<img alt="" src="https://a.cdn-hotels.com/gdcs/production140/d1058/194c21fe-3f85-4273-add9-00ff194ce89c.jpg"/>
+						</router-link>
 					</li>
 
 				</ul>
-
 			</section>
 			
 		</section>
@@ -211,12 +210,6 @@ header footer article section nav {
 	display:block;
 }
 
-img { 
-	border-radius: 100%; 
-	max-width: 100%; 
-	display: block;
-}
-
 a {
 	color:#D24655;
 	text-decoration:none;
@@ -230,9 +223,9 @@ a:hover, a:focus { /* when you declare a hover state, make sure you declare a fo
 	color: #000;
 }
 
-a img {
+/* a img {
 	border:none;
-}
+} */
 
 
 
@@ -314,11 +307,11 @@ nav a:hover, nav a:focus {
 }
 
 
-img.right1 {
+/* img.right1 {
 	float: right;
 	margin: 0 0 20px 20px;
   border-radius: 0%;
-}
+} */
 
 .social li { 
 	float: left;
@@ -356,13 +349,13 @@ img.right1 {
 	margin-bottom: 10px;
 }
 
-.post img { 
+/* .post img { 
 	width: 20%; 
 	position: absolute;
 	left: 0;
 	top: 0;
 	border-radius: 0;
-}
+} */
 
 .date { 
 	display: block; 
@@ -377,7 +370,7 @@ img.right1 {
 
 
 
-.gallery li {
+/* .gallery li {
 	float: left;
 	list-style: none;
 	width: 21%;
@@ -390,7 +383,7 @@ img.right1 {
 
 .gallery a {
  	display: block;	
-}
+} */
 
 .gallery a img { 
   -webkit-transition: all 0.5s ease-in-out; 
@@ -402,10 +395,10 @@ img.right1 {
 }
 
 .gallery a:hover img, .gallery a:focus img { 
-	-webkit-transform: scale(1.1);  /* Saf3.1+, Chrome */
-     -moz-transform: scale(1.1);  /* FF3.5+ */
-      -ms-transform: scale(1.1);  /* IE9 */
-       -o-transform: scale(1.1);  /* Opera 10.5+ */
+	-webkit-transform: scale(1.1);  
+     -moz-transform: scale(1.1); 
+      -ms-transform: scale(1.1); 
+       -o-transform: scale(1.1);  
           transform: scale(1.1);
 }
 
@@ -437,4 +430,51 @@ img.right1 {
 	margin-bottom: 30px;
 	border-bottom: 1px dashed rgba(0,0,0,.3);
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 150px 200px;
+  gap: 1rem;
+}
+
+li:nth-child(2) {
+  grid-row: span 2;
+}
+
+li:nth-child(4) {
+  grid-row: span 3;
+}
+
+
+
+/*
+    👇 Other than the layout
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* body {  
+  min-height: 100vh;
+  padding: 2rem;  
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' viewBox='0 0 700 700' width='700' height='700'%3E%3Cdefs%3E%3ClinearGradient gradientTransform='rotate(230, 0.5, 0.5)' x1='50%25' y1='0%25' x2='50%25' y2='100%25' id='ffflux-gradient'%3E%3Cstop stop-color='%23FD6C13' stop-opacity='1' offset='0%25'%3E%3C/stop%3E%3Cstop stop-color='%23E63E00' stop-opacity='1' offset='100%25'%3E%3C/stop%3E%3C/linearGradient%3E%3Cfilter id='ffflux-filter' x='-20%25' y='-20%25' width='140%25' height='140%25' filterUnits='objectBoundingBox' primitiveUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.001 0.001' numOctaves='2' seed='221' stitchTiles='stitch' x='0%25' y='0%25' width='100%25' height='100%25' result='turbulence'%3E%3C/feTurbulence%3E%3CfeGaussianBlur stdDeviation='0 0' x='0%25' y='0%25' width='100%25' height='100%25' in='turbulence' edgeMode='duplicate' result='blur'%3E%3C/feGaussianBlur%3E%3CfeBlend mode='color-dodge' x='0%25' y='0%25' width='100%25' height='100%25' in='SourceGraphic' in2='blur' result='blend'%3E%3C/feBlend%3E%3C/filter%3E%3C/defs%3E%3Crect width='700' height='700' fill='url(%23ffflux-gradient)' filter='url(%23ffflux-filter)'%3E%3C/rect%3E%3C/svg%3E");  
+} */
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 </style>

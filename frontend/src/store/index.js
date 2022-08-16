@@ -1,18 +1,12 @@
 import { createStore } from 'vuex'
-
+import axios from 'axios';
 const nodeEOMPURL = 'https://camping-pos.herokuapp.com/';
 export default createStore({
   state: {
-    products: [
-      {name:'Banana Skins', price: 20, image:'https://i.ibb.co/L8Nrb7p/1.jpg'},
-      {name:'Shiney Star', price: 40, image:'https://i.ibb.co/L8Nrb7p/1.jpg'},
-      {name:'Green Shells', price: 60, image:'https://i.ibb.co/L8Nrb7p/1.jpg'},
-      {name:'Red Shells', price: 80, image:'https://i.ibb.co/L8Nrb7p/1.jpg'}
-    ]
-    // users: null,
-    // user: null,
-    // products: null,
-    // product: null
+    users: null,
+    user: null,
+    products: null,
+    product: null
   },
   getters: {
   },
@@ -32,12 +26,9 @@ export default createStore({
   },
   actions: {
     getProducts : async (context) => {
-      fetch(nodeEOMPURL+'products')
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        context.commit('setProducts', data.results)
-      })
+      let res = await axios.get(nodeEOMPURL+"products");
+      let {results} = res.data;
+      context.commit('setProducts', results)
     },
     login: async (context, payload)=> {
       const {email, user_password} = payload;

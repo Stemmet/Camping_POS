@@ -29,7 +29,7 @@
         <label for="checkboxInput" class="remeber_me">
           <input type="checkbox" id="checkboxInput">
           <span class="checkmark"></span>
-          <span>Remeber Me</span>
+          <span>Remember Me</span>
         </label>
         <div class="forgot_password">Forgot Password?</div>
       </div>
@@ -47,8 +47,7 @@
         </div>
       </div>
     </form> <!-- End Login Form -->
-
-    <!-- Sign Up Form -->
+<!-- Sign Up Form -->
     <form class="sign-up__form" id="signUpForm">
       <!-- Form Title -->
       <h1 class="form__title">Sign Up!</h1>
@@ -98,6 +97,8 @@
       </div>
     </form> <!-- End Sign Up Form -->
   </div><!-- End Forms Area -->
+
+  
 
   <!-- Aside Area -->
   <div class="aside__area" id="aside_Area">
